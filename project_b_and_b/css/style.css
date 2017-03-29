@@ -1,0 +1,529 @@
+    /*Project - Moores B*B - Author: John Mulhall, StudentID:10042622
+      Project for Web Design & Development module B8IT115*/
+    /*Custom Default Settings for all pages*/
+    body {
+      color: #662900;
+      font-weight: normal;
+      font-size: 1em;
+      font-family: Calibri, Arial, sans-serif;
+      margin: 1% 1% 1% 1%;
+      background-image:url('../images/imgSalthillBeach.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: #fff063;
+      width: 100%;
+      height: auto;
+    }
+    #wrapper {
+      display: inline-block;
+    	width:95%;
+    	height: auto;
+    	margin: auto;
+    	padding-bottom: 0.1%;
+      background-color: inherit;
+    	border-radius: 1%;
+    	box-shadow: 0.3em 0.4em 0.3em #663300;
+    }
+    header {
+      position: relative;
+      margin-bottom: 1%;
+    }
+    nav {
+      background-color: #cc9900;
+      overflow: hidden;
+      border: dotted;
+      text-align: center;
+      margin:auto 0.5% auto 0.5%;
+      border-radius: 10%;
+      background: -webkit-linear-gradient(#cc9900 , #ffd1b3);
+      background: -o-linear-gradient(#cc9900 , #ffd1b3);
+      background: -moz-linear-gradient(#cc9900 , #ffd1b3);
+      background: linear-gradient(#cc9900 , #ffd1b3);
+      box-sizing: border-box;
+    }
+    nav > ul {
+      list-style: none;
+      width: 100%;
+      position: relative;
+      border: solid;
+      border-radius: 10%;
+    }
+    nav > ul > li {
+      display: inline-block;
+      margin: 1% 3% 1% 1%;
+      text-align: left;
+      border-radius:10%;
+    }
+    nav > ul > li > a {
+      color: #662900;
+      font-size: 1.45em;
+      font-family: Calibiri, Arial, sans-serif;
+      font-weight: bold;
+      text-shadow: 0.3em 0.2em 0.3em #663300;
+      width: 100%;
+      display: inline;
+      text-decoration: none;
+      position: relative;
+    }
+    h1 {
+      font-size: 2.75em;
+      font-weight: bolder;
+      font-family: forte, cursive, Arial;
+      position:relative;
+      text-align: center;
+      margin-top: -2em;
+      padding: 0.5%;
+    }
+    #tagline {
+      font-style: oblique;
+      font-family: sans-serif;
+      font-variant: small-caps;
+      text-align: right;
+      padding-right: 2%;
+      margin-top: -1.1em;
+    }
+    article {
+      position: relative;
+      width: 100%;
+      height: auto;
+    }
+    footer {
+      box-sizing: border-box;
+      width:100%;
+      height:auto;
+      float: left;
+    }
+    h2 {
+      font-size: 2.0em;
+      font-weight: bolder;
+      padding: 0.5%;
+    }
+    h3, h4, h5, h6, blockquote {
+      font-size: 1.1em;
+      font-weight: bold;
+      margin: 1% 1% 1% 1%;
+    }
+    img {
+      box-sizing: border-box;
+      max-width: 100%;
+      border-radius: 3%;
+      padding-bottom: 1%;
+    }
+    p {
+      padding:0.5%;
+    }
+    /*Specific Project Stylings*/
+    /*Project Header Settings for all pages*/
+    #logo {
+      box-sizing: border-box;
+      padding: 0.5%;
+      position: relative;
+    }
+    #page_title {
+      text-align: center;
+      font: 1.6em, bold;
+      margin-top: -0.4em;
+    }
+    /*specific home page welcome styles*/
+    .welcome {
+      text-align: center;
+      font-size:1.5em;
+      font-weight:bold;
+      margin: auto auto 1% auto;
+    }
+    ul {
+    	padding: 0.5%;
+    }
+    #home_page_slideshow {
+      box-sizing: border-box;
+      margin: 1% auto;
+      position: relative;
+      width: 51em;/*820px*/
+      height: 35em;/*573px*/
+      box-shadow: 0 0 0.5em rgba(0,0,0,0.4);
+    }
+    #home_page_slideshow > figure {
+      box-sizing: border-box;
+      text-align: center;
+      position: absolute;
+      top: 2em;
+      left: 1em;
+      right: 1em;
+      bottom: 1em;
+      font-size: 1.2em;
+      transition: 0.6s ease;
+    }
+    #home_page_slideshow > figure  > figcaption {
+      position: absolute;
+      background-color: rgba(0,0,0,0.2);
+      color: #ffffff;
+      padding: 10px 10px;
+      opacity: 0.8;
+      bottom: 0;
+      -webkit-transition: all 0.6s ease;
+      -moz-transition: all 0.6s ease;
+      -o-transition: all 0.6s ease;
+    }
+    #home_page_slideshow > figure:hover {
+      left: 0;
+    }
+    #what_we_offer {
+      float: left;
+      text-align: center;
+      margin: 0 0 2% 0%;
+      border-right: solid;
+      padding: 1%;
+      font-size: 1.25em;
+      max-width: 52%;
+      height: auto;
+    }
+    #what_we_offer > dl {
+      padding: 0 5% 0 5%;
+      text-align: center;
+    }
+    #what_we_offer > dl > dt {
+      margin: 4% 7% 4% 7%;
+      font-weight: bold;
+    }
+    section > img {
+      padding-bottom: 1.5%;
+      padding-top: 1.5%;
+      border-radius: 5%;
+    }
+    /*local attractions/video fieldsets on main page*/
+    aside {
+      float: right;
+      text-align: center;
+      position: relative;
+      display: inline-block;
+      box-sizing: border-box;
+      max-width: 45%;
+      padding: 1%;
+    }
+    aside > h3 {
+        font-size: 1.5em;
+    }
+    aside > a > img {
+      border-radius: 5%;
+    }
+    aside > hr {
+      width: 40%;
+      height: 0.2em;
+    }
+    aside > a {
+      color: #663300;
+    }
+
+    aside > a:hover {
+      text-decoration: none;
+      color: #ff0000;
+    }
+    aside > a:active {
+      text-decoration: none;
+      color:#009900
+    }
+    aside > a:visited {
+      color:#b800e6;
+    }
+     aside > ul > li {
+       padding: 0.5%;
+     }
+
+    aside > fieldset {
+      font-weight: bold;
+      font-size: 1em;
+      border-radius: 5%;
+      border: solid;
+    }
+    aside > fieldset > iframe {
+      padding: 2%;
+      margin: 3% 0 3% 0;
+      max-width: 95%;
+      border-radius: 5%;
+    }
+    #customer_reviews {
+      font-size: 1.25em;
+      margin: 1%;
+      max-width: 100%;
+    }
+    #customer_reviews > h3 {
+        text-align: left;
+    }
+    #customer_reviews > img #what_we_offer > a > img {
+      box-sizing: border-box;
+      float: none;
+      padding: 0 4% 0 4%;
+      position: relative;
+      border-radius: 5%;
+    }
+    #customer_reviews ul > li {
+      padding: 1.2%;
+      position: relative;
+      text-align: justify;
+    }
+    #customer_reviews ul > li > em > a {
+      text-decoration: none;
+      color: #663300;
+    }
+    #customer_reviews ul > li > em > a:hover {
+      color: #ff0000
+    }
+    #customer_reviews ul > li > em > a:active {
+      color:#009900
+    }
+    #customer_reviews ul > li > em > a:visited {
+      color:#b800e6;
+    }
+    #customer_reviews ul > li > em {
+      font-style: italic;
+      font-weight: bold;
+    }
+    #customer_reviews hr {
+      width: 40%;
+      height: 0.2em;
+    }
+    /*specifc class and id styling*/
+    /*Footer (custom) styling*/
+    #footer_phone_numbers {
+      font-size: 120%;
+      position:relative;
+      text-align: center;
+      font-weight: bold;
+      margin: 1% auto auto -1%;
+    }
+    #galway_races_footer {
+    	position: relative;
+      float:left;
+      width: 100%;
+      height: auto;
+    }
+    #img_trip_advisor {
+      position:relative;
+      padding: 1%;
+      max-width: 100%;
+      height: auto;
+    }
+    #img_galway_races {
+      box-sizing: border-box;
+      position: relative;
+      padding: 0.5%;
+      max-width: 100%;
+      left: 25%;
+
+    }
+    /*peudo class treatment of footer links*/
+    #footer_links {
+      position: relative;
+      text-align: center;
+      padding:0.5%;
+      line-height: 0.5em;
+      display: block;
+      font-size: 0.95em;
+      max-width: 100%;
+    }
+    #footer_links:hover {
+      text-decoration: none;
+      color: #ff0000;
+    }
+    #footer_links:active {
+      text-decoration: none;
+      color:#009900
+    }
+    #footer_links:visited {
+      color:#b800e6;
+    }
+    .social_media_share {
+      display: inline-block;
+      position: relative;
+      padding: 0.5%;
+      max-width: 100%;
+      float: right;
+    }
+    #copyright {
+      text-align: left;
+    }
+
+    /*Special Project Settings*/
+    /*Specific Stylings for the aboutus.html*/
+    #our_story {
+        padding: 2%;
+        text-align: justify;
+      }
+    #meet_the_team {
+        text-align: center;
+        line-height: 1.25em;
+        padding:0.5%;
+        }
+    #meet_the_team_ruler {
+          width:90%
+        }
+    #meet_the_team h2 {
+      padding:1%;
+    }
+    .aside_list {
+      list-style-type:none;
+      padding: 1%;
+    }
+    /*Specific Stylings for sitemap.html*/
+    .link_map_headers {
+      font-size: 175%;
+    }
+    .site_map { /*also used in useful_links*/
+      text-align: center;
+      font-size: 2em;
+      font-family: cursive, "Comic Sans MS", sans-serif;
+      padding:1%;
+    }
+    .site_map > a {
+        color: #990000;
+    }
+    .site_map > a:hover {
+      color: #990099;
+      font-size: 3.0em;
+      text-decoration: none;
+    }
+    #treasure_map > img {
+      max-width:100%;
+      height:auto;
+      border-radius:6%;
+    }
+    #treasure_map hr {
+      width: 90%;
+    }
+    /*Specific Stylings for useful_links page*/
+    .logo_lineout {
+      position: relative;
+      width: 100%;
+      height: auto;
+      padding:1%;
+      margin-top: 1%;
+      box-shadow: 0 0 1em rgba(0,0,0,0.4);
+      box-sizing:border-box;
+
+    }
+    .logo_lineout > a {
+      position: relative;
+      width:100%;
+      height:auto;
+      padding: 2.5%;
+    }
+    /*Specific Stylings for contact_us page*/
+
+     form{
+       width: 60%;
+       height: auto;
+       box-sizing: border-box;
+       float: left;
+       border-right: solid;
+     }
+     legend {
+       font-size: 2em;
+       margin: 4%;
+     }
+     label.field {
+       text-align: right;
+       width: 10em;
+       margin: 3em;
+       font-weight: bold;
+       font-size: 1.2em;
+     }
+    input{
+         font-size: 1.2em;
+      float: right;
+      width: 15em;
+      margin-right: 2%;
+    }
+    .submit_button {
+      box-sizing: border-box;
+      padding: 1%;
+      margin-top: 1%;
+      color: #ffffff;
+      font-weight: bold;
+      font-size: 1em;
+      width: 10em;
+      background-color: grey;
+    }
+    textarea {
+      font-size: 1em;
+      float: right;
+      width: 30em;
+      height: 25em;
+      margin-right: 10em;
+      resize: none;
+    }
+    form > fieldset > p {
+     margin: 2% 0 2% 0;
+    }
+    .required, span {
+      color: #ff0000;
+      font-weight: bold;
+    }
+
+    /*specific stylings for the our_customers.html page*/
+    .our_customer_information
+    {
+        float: left;
+        max-width: 65%;
+    }
+    #all_customer_reviews {
+      position: relative;
+      font-size: 1.25em;
+      padding: 1%;
+      border-right: solid;
+      border-bottom: solid;
+    }
+    #all_customer_reviews > ul {
+      padding: 1%;
+    }
+    #all_customer_reviews > ul > li {
+      padding: 1%;
+    }
+    #all_customer_reviews > ul > li > em {
+      font-style: italic;
+      font-weight: bold;
+    }
+    #faq {
+      padding: 1%;
+      display: inline-block;
+      border-right: solid;
+    }
+    #faq > h3 {
+        padding: 1%;
+    }
+    #faq > p {
+      padding: 2%;
+      font-style: normal;
+    }
+    /*Specific Stylings for activities.html*/
+    #guided_tours, #entertainment, #mid_atlantic_way, #moher {
+        float: left;
+        max-width: 33%;
+        padding: 7%;
+        margin: 1%;
+        border: ridge;
+        border-right: solid;
+    }
+    #beach, #outdoors, #west, #connaught {
+        float: right;
+        max-width: 33%;
+        padding: 7%;
+        margin: 1%;
+        border: ridge;
+        border-right: solid;
+    }
+    #guided_tours > ul, #beach > ul, #entertainment > ul, #outdoors > ul, #mid_atlantic_way > ul, #moher > ul,
+    #west > ul, #connaught > ul {
+        padding: 1%;
+        list-style-type: circle;
+        font-size: 1.25em;
+    }
+    #guided_tours > ul > li, #beach > ul > li, #entertainment > ul > li, #outdoors > ul > li,
+    #mid_atlantic_way > ul > li, #moher > ul > li, #west > ul > li, #connaught > ul > li {
+        padding: 1%;
+        list-style-type: circle;
+    }
+    .our_customer_information > p {
+        float: right;
+        font-size: 1.1em;
+        display: inline-block;
+    }
